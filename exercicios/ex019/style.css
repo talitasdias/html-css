@@ -8,13 +8,24 @@ body {
 #principal {
     text-align: center;
     color: white;
-    background-color: rgb(4, 109, 0);
+    background-color: #1e402f;
 }
 
 h1 {
-    color: rgb(4, 109, 0);
+    color: #3c805e;
 }
 
-h2 {
-    color: rgb(73, 109, 71);
+.basico {
+    color: #3c805e;
+}
+
+.intermediario {
+    color: #80793c;
+}
+.avancado {
+    color: #803c3c;
+}
+
+.destaque {
+    background-color: #c5c56070;
 }
