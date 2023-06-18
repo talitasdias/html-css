@@ -14,10 +14,21 @@ h1 {
     color: #C05767;
     text-align: center;
     margin: 30px;
+    font-size: 1.5em;
 }
 
 .container {
     overflow-x: auto;
+}
+
+.container::-webkit-scrollbar{
+    background: #10435c;
+}
+
+.container::-webkit-scrollbar-thumb{
+    background: #21678a;
+    border-radius: 20px;
+    border: 1px solid transparent;
 }
 
 table {
