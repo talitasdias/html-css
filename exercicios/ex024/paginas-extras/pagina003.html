@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #20273A;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        h1 {
+            color: #C05767;
+            text-align: center;
+            margin: 30px;
+            font-size: 1.5em;
+        }
+
+        .container {
+            overflow-x: auto;
+        }
+
+        .container::-webkit-scrollbar{
+            background: #10435c;
+        }
+
+        .container::-webkit-scrollbar-thumb{
+            background: #21678a;
+            border-radius: 20px;
+            border: 1px solid transparent;
+        }
+
+        table {
+            margin: auto;
+            width: 700px;
+            text-align: left;
+        }
+
+        .sites {
+            color: #e06e7f;
+            font-weight: bold;
+        }
+
+        th {
+            padding: 20px;
+            color: #21678a;
+        }
+
+        td {
+            padding: 20px;
+        }
+
+        tbody {
+            background-color: #2D3447;
+            color: white;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: #313C4E;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Exercício da Internet</h1>
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">Sites</th>
+                    <th scope="col">Views</th>
+                    <th scope="col">Clicks</th>
+                    <th scope="col">Average</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="sites">Google</td>
+                    <td>9518</td>
+                    <td>6369</td>
+                    <td>01:32:50</td>
+                </tr>
+                <tr>
+                    <td class="sites">Twitter</td>
+                    <td>7326</td>
+                    <td>10437</td>
+                    <td>00:51:22</td>
+                </tr>
+                <tr>
+                    <td class="sites">Amazon</td>
+                    <td>4162</td>
+                    <td>5327</td>
+                    <td>00:24:34</td>
+                </tr>
+                <tr>
+                    <td class="sites">LinkedIn</td>
+                    <td>3654</td>
+                    <td>2951</td>
+                    <td>00:12:10</td>
+                </tr>
+        
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

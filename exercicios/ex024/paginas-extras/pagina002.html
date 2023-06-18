@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(19, 17, 17);
+        }
+
+        .container {
+            overflow-x: auto;
+        }
+
+        .clivre {
+            background-color: #08aae6;
+        }
+
+        .cpadrao {
+            background-color: #70368E;
+        }
+
+        .cnegocio {
+            background-color: #BE4149;
+        }
+
+        .cprofissional {
+            background-color: #339676;
+        }
+
+        table {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            border-collapse: collapse;
+            width: 700px;
+        }
+
+        thead {
+            color: white;
+            height: 150px;
+            line-height: 1.8em;
+        }
+
+        thead strong {
+            font-size: 2em;
+        }
+
+        thead span {
+            font-weight: lighter;
+            font-size: .8em;
+        }
+
+        td, th {
+            border: 1px solid transparent;
+            padding: 5px;
+        }
+
+        tbody td {
+            color: white;
+            font-size: .8em;
+        }
+
+        tfoot td {
+            font-size: .6em;
+            padding: 20px 0 35px 0;
+        }
+
+        .button-plano {
+            margin: auto;
+            font-weight: bold;
+            border: 1px solid transparent;
+            width: 100px;
+            padding: 5px;
+            background-color: white;
+            box-shadow: 1px 1px 2px  rgba(0, 0, 0, 0.39);
+            transition-duration: .5s;
+        }
+
+        .button-plano:hover {
+            cursor: pointer;
+            background-color: rgb(99, 78, 78);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <table>
+            <colgroup>
+                <col class="clivre">
+                <col class="cpadrao">
+                <col class="cnegocio">
+                <col class="cprofissional">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th scope="col">Livre <br> <strong>$0</strong> <br> <span>por mês</span></th>
+                    <th scope="col">Padrão <br> <strong>$19</strong> <br> <span>por mês</span></th>
+                    <th scope="col">O negócio <br> <strong>$59</strong> <br> <span>por mês</span></th>
+                    <th scope="col">Profissional <br> <strong>$229</strong><br> <span>por mês</span></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1 Usuário</td>
+                    <td>5 usuários</td>
+                    <td>15 usuários</td>
+                    <td>Usuários ilimitados</td>
+                </tr>
+                <tr>
+                    <td>Recurso 2</td>
+                    <td>Recurso 2</td>
+                    <td>Recurso 2</td>
+                    <td>Recurso 2</td>
+                </tr>
+                <tr>
+                    <td>Recurso 2</td>
+                    <td>Recurso 2</td>
+                    <td>Recurso 2</td>
+                    <td>Recurso 2</td>
+                </tr>
+                <tr>
+                    <td>Recurso 2</td>
+                    <td>Recurso 2</td>
+                    <td>Recurso 2</td>
+                    <td>Recurso 2</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td><div class="button-plano">OBTER PLANO</div></td>
+                    <td><div class="button-plano">OBTER PLANO</div></td>
+                    <td><div class="button-plano">OBTER PLANO</div></td>
+                    <td><div class="button-plano">OBTER PLANO</div></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+</html>
