@@ -9,12 +9,12 @@
         width: 80vw;
     }
     #imagem {
-        float: right;
+        float: left;
         width: 30%;
         height: 100%;
     }
     #formulario {
-        float: left;
+        float: right;
         width: 70%;
         height: 100%;
     }
@@ -33,12 +33,12 @@
     }
 
     #imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
     #formulario {
-        float: right;
+        float: left;
         width: 50%;
     }
     #formulario > h1 {
