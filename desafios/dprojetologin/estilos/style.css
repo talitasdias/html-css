@@ -7,7 +7,7 @@
 */
 :root {
     --cor-mobile:  #5F2C82;
-    --cor-dedrade: #49A09D;  
+    --cor-degrade: #49A09D;  
 }
 
 * {
@@ -40,6 +40,9 @@ main {
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 #imagem {
